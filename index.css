@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: large;
+}
+
+::selection {
+    background-color: green; /* Цвет фона выделенного текста */
+    color: white; /* Цвет текста при выделении     height: calc(100% - 63.2px);*/
+}
+
+.container {
+    display: flex;
+    height: calc(100% - 63.2px);
+}
+
+.sidebar {
+    margin-left: 30%;
+    width: 10%;
+    background-color: red;
+    padding: 16px 16px 16px 40px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+    font-size: small;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: underline;
+}
+
+.content {
+    padding: 28px;
+    width: 30%;
+    margin-right: 30%;
+    text-align: justify;
+}
+
+span {
+    color:red;
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
