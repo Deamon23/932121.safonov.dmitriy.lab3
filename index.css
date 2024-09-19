@@ -62,7 +62,7 @@ header {
 
 span {
     color:red;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 footer {
@@ -70,4 +70,19 @@ footer {
     color: white;
     text-align: center;
     padding: 4px;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        margin-left: 0;
+        width: 33%;
+    }
+    .content {
+        width: 67%;
+        margin-right: 0;
+    }
+    .container {
+        display: flex;
+        height: auto;
+    }
 }
